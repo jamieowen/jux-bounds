@@ -1,10 +1,10 @@
 
-var intersects = function( target, rect ){
+var intersects = function( target, bounds ){
 	return !(
-		rect.left >= target.right ||
-		rect.right <= target.left ||
-		rect.top >= target.bottom ||
-		rect.bottom <= target.top
+		bounds.left >= target.right ||
+		bounds.right <= target.left ||
+		bounds.top >= target.bottom ||
+		bounds.bottom <= target.top
 	)
 };
 

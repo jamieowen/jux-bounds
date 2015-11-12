@@ -1,11 +1,11 @@
 
-var contains = function( rect, target )
+var contains = function( bounds, target )
 {
 	return (
-		rect.left >= target.left &&
-		rect.right <= target.right &&
-		rect.top >= target.top &&
-		rect.bottom <= target.bottom
+		bounds.left >= target.left &&
+		bounds.right <= target.right &&
+		bounds.top >= target.top &&
+		bounds.bottom <= target.bottom
 	);
 };
 

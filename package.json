@@ -2,7 +2,7 @@
   "name": "jux-bounds",
   "version": "1.0.0",
   "description": "",
-  "main": "Rect.js",
+  "main": "Bounds.js",
   "directories": {
     "test": "tests"
   },
