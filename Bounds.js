@@ -1,10 +1,10 @@
 
-var Bounds = function(){
+var Bounds = function( x,y,w,h ){
 
-	this.x 		= 0;
-	this.y 		= 0;
-	this.width  = 0;
-	this.height = 0;
+	this.x 		= x || 0;
+	this.y 		= y || 0;
+	this.width  = w || 0;
+	this.height = h || 0;
 
 };
 
